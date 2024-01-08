@@ -42,4 +42,6 @@ int main()
 	/* Trying 7.0/22.0 */
 	float product = 7.0/22.0;
 	printf("7.0/22.0 = %f\n", product);
+
+	return 0;
 }
