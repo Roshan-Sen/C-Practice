@@ -1,6 +1,17 @@
 # include <stdio.h>
 
-/* Hello World program in C */
+/*****************************
+ * helloworld - a program    *
+ * to print a greeting       *
+ *           		     *
+ * Author: Roshan Sen        *
+ *                           *
+ * Purpose: Test C compiler  *
+ * on the virtual machine    *
+ *                           *
+ * Usage: run program to     *
+ * display a greeting        *
+ *****************************/
 
 int main()
 {
