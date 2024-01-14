@@ -50,5 +50,19 @@ int main()
 	anotherstring[3] = '\0';
 	printf("%s\n", anotherstring);
 
+	char onestring[4];
+	char twostring[4];
+	char combinedstring[30];
+	strcpy(onestring, "one");
+	strcpy(twostring, "two");
+	strcpy(combinedstring, strcat(onestring,twostring));
+	printf("%s\n", combinedstring);
+	int stringlength;
+	stringlength = strlen(combinedstring);
+	printf("The length of the previous string was %d without the null character\n", stringlength);
+	int comparison = strcmp(onestring, twostring);
+	printf("Since the value strcmp gave was %d, the strings are not equal\n", comparison);
+
+
 	return(0);
 }
