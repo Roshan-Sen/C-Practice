@@ -57,7 +57,7 @@ int begins(char *onestring, char *twostring){
         if(*(onestring + spacer) != *(twostring + spacer)){
             return 0;
         }
-        printf("%d %c %c\n", spacer, *(onestring + spacer), *(twostring + spacer));
+        /*printf("%d %c %c\n", spacer, *(onestring + spacer), *(twostring + spacer));*/
         spacer++;
     }
     return 1;
