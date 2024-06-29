@@ -13,7 +13,7 @@
 
 int MAX_ITERATIONS = 100000;
 
-void to_lowercase(char *input);
+void to_uppercase(char *input);
 
 int main() {
     char line[1000];
@@ -21,7 +21,7 @@ int main() {
     fgets(line, sizeof(line), stdin);
     char *input_string = &line[0];
 
-    to_lowercase(input_string);
+    to_uppercase(input_string);
     printf("String after conversion to uppercase letters: %s", line);
 
     return 1;
@@ -39,7 +39,7 @@ int main() {
  * return: void        *
  ***********************/
 
-void to_lowercase(char *input) {
+void to_uppercase(char *input) {
     int spacer = 0;
     int escape_flag = 1;
     while(escape_flag) {
