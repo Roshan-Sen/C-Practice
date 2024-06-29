@@ -15,4 +15,4 @@ in separate files for now and will pull from them as needed in the future.
 
 ## **Functional Methods**
 The to_lowercase method is functional. It is implemented using a large switch\
-statement.\
+statement. The to_uppercase method is almost identical to this one.\
