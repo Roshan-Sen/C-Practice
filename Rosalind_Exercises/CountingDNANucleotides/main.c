@@ -41,6 +41,8 @@ int main(int argc, char* argv[]){
         printf("%d ", counts[i]);
     }
     printf("\n");
+
+    return 0;
 }
 
 /*
